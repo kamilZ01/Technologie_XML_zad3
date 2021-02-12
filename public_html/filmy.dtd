@@ -1,0 +1,49 @@
+<!-- filmy.dtd -->
+<!ELEMENT filmy (dane_techniczne, gatunki, kraje, film+, prawa_autorskie)>
+<!-- dane_techniczne -->
+<!ELEMENT dane_techniczne (tytuł, informacje, autorzy)>
+<!ELEMENT autorzy (twórca+)>
+<!ELEMENT twórca (#PCDATA)>
+<!ELEMENT tytuł (#PCDATA)>
+<!ELEMENT informacje (#PCDATA)>
+<!ATTLIST twórca 
+        nrIndeksu CDATA #REQUIRED>
+<!-- gatunki -->
+<!ELEMENT gatunki (gatunek+)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ATTLIST gatunek 
+        gatunek_id ID #REQUIRED>
+<!-- kraje -->
+<!ELEMENT kraje (kraj+)>
+<!ELEMENT kraj (#PCDATA)>
+<!ATTLIST kraj
+        kraj_id ID #REQUIRED>
+<!-- film -->
+<!ELEMENT film (bazy_filmowe, dane, oceny, premiery, wypożyczenie?)>
+<!ATTLIST film
+        id      ID    #REQUIRED
+        gatunek IDREFS #REQUIRED 
+        kraj    IDREFS #REQUIRED>
+<!ELEMENT bazy_filmowe EMPTY>
+<!ATTLIST bazy_filmowe
+        filmweb CDATA #REQUIRED
+        imdb CDATA #IMPLIED>
+<!ELEMENT dane (tytuł_org, tytuł_pl?, opis, reżyseria, scenariusz, boxoffice)>
+<!ELEMENT tytuł_org (#PCDATA)>
+<!ELEMENT tytuł_pl (#PCDATA)>
+<!ELEMENT opis (#PCDATA)>
+<!ELEMENT reżyseria (#PCDATA)>
+<!ELEMENT scenariusz (#PCDATA)>
+<!ELEMENT boxoffice (#PCDATA)>
+<!ATTLIST boxoffice
+        waluta (USD|EUR|PLN) "USD" >
+<!ELEMENT oceny (filmweb, imdb?)>
+<!ELEMENT filmweb (#PCDATA)>
+<!ELEMENT imdb (#PCDATA)>
+<!ELEMENT premiery (polska, świat?)>
+<!ELEMENT polska (#PCDATA)>
+<!ELEMENT świat (#PCDATA)>
+<!ELEMENT wypożyczenie (data_wypożyczenia?, data_zwrotu?)>
+<!ELEMENT data_wypożyczenia (#PCDATA)>
+<!ELEMENT data_zwrotu (#PCDATA)>
+<!ELEMENT prawa_autorskie (#PCDATA)>

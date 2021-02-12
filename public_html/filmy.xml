@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmy>
+    <dane_techniczne>
+        <tytuł>
+           Filmoteka
+        </tytuł>
+        <informacje>Lista filmów w wypożyczalni. Filmy zostały ponumerowane oraz przyporządkowane poprez atrybuty odpowiednim gatunkom i krajom produkcji.</informacje>
+        <autorzy>
+            <twórca nrIndeksu="224478">Dominik Cegiełka</twórca>
+            <twórca nrIndeksu="224546">Kamil Zarych</twórca>
+        </autorzy>
+    </dane_techniczne>
+    
+    <!-- Gatunki filmowe -->
+    <gatunki>
+        <gatunek gatunek_id="akcja">Akcja</gatunek>
+        <gatunek gatunek_id="dokumentalny">Dokumentalny</gatunek>
+        <gatunek gatunek_id="dramat">Dramat</gatunek>
+        <gatunek gatunek_id="fantasy">Fantasy</gatunek>
+        <gatunek gatunek_id="horror">Horror</gatunek>
+        <gatunek gatunek_id="komedia">Komedia</gatunek>
+        <gatunek gatunek_id="kryminał">Kryminał</gatunek>
+        <gatunek gatunek_id="przygodowy">Przygodowy</gatunek>
+        <gatunek gatunek_id="thriller">Thriller</gatunek>
+        <gatunek gatunek_id="sci-fi">Sci-Fi</gatunek>
+        <gatunek gatunek_id="biograficzny">Biograficzny</gatunek>
+    </gatunki>
+    
+    <!-- Kraje produkcji -->
+    <kraje>
+        <kraj kraj_id="AU">Australia</kraj>
+        <kraj kraj_id="FR">Francja</kraj>
+        <kraj kraj_id="PL">Polska</kraj>
+        <kraj kraj_id="US">Stany Zjednoczone</kraj>
+        <kraj kraj_id="UK">Wielka Brytania</kraj>
+        <kraj kraj_id="CA">Kanada</kraj>
+        <kraj kraj_id="HK">Hongkong</kraj>
+        <kraj kraj_id="BR">Brazylia</kraj>
+        <kraj kraj_id="DK">Dania</kraj>
+        <kraj kraj_id="SE">Szwecja</kraj>
+        <kraj kraj_id="RU">Rosja</kraj>
+        <kraj kraj_id="IN">Indie</kraj>
+        <kraj kraj_id="RPA">Republika Południowej Afryki</kraj>
+        <kraj kraj_id="ES">Hiszpania</kraj>
+        <kraj kraj_id="IT">Włochy</kraj>
+    </kraje>
+    
+    <!-- Lista filmów -->
+    <film id="Joker" gatunek="akcja dramat" kraj="US CA">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Joker-2019-810167" imdb="https://www.imdb.com/title/tt7286456/" />
+        <dane>
+            <tytuł_org>Joker (2019)</tytuł_org>
+            <tytuł_pl></tytuł_pl>
+            <opis>Historia jednego z cieszących się najgorszą sławą superprzestępców uniwersum DC — Jokera. Przedstawiony przez Phillipsa obraz śledzi losy kultowego czarnego charakteru, człowieka zepchniętego na margines. To nie tylko kontrowersyjne studium postaci, ale także opowieść ku przestrodze w szerszym kontekście.</opis>
+            <reżyseria>Todd Phillips</reżyseria>
+            <scenariusz>Todd Phillips, Scott Silver</scenariusz>
+            <boxoffice waluta="USD">548290190</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.7</filmweb>
+            <imdb>8.9</imdb>
+        </oceny>
+        <premiery>
+            <polska>2019-10-04</polska>
+            <świat>2019-08-31</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2019-10-08</data_wypożyczenia>
+            <data_zwrotu>2019-10-16</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Smith" gatunek="akcja" kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Mr.Mrs.Smith" imdb="https://www.imdb.com/title/tt0356910/" />
+        <dane>
+            <tytuł_org>Mr. &amp; Mrs. Smith</tytuł_org>
+            <tytuł_pl>Pan i Pani Smith</tytuł_pl>
+            <opis>Para płatnych zabójców pracujących dla dwóch tajnych agencji wiedzie monotonne małżeńskie życie. Niespodziewanie dostają zlecenie na siebie nawzajem.</opis>
+            <reżyseria>Doug Liman</reżyseria>
+            <scenariusz>Simon Kinberg</scenariusz>
+            <boxoffice waluta="USD">478207520</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>6.7</filmweb>
+            <imdb>6.5</imdb>
+        </oceny>
+        <premiery>
+            <polska>2005-08-05</polska>
+            <świat>2005-06-07</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2018-09-08</data_wypożyczenia>
+            <data_zwrotu></data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="mRycerz" gatunek="akcja sci-fi" kraj="US UK">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Mroczny.Rycerz" imdb="https://www.imdb.com/title/tt0468569/" />
+        <dane>
+            <tytuł_org>The Dark Knight</tytuł_org>
+            <tytuł_pl>Mroczny Rycerz</tytuł_pl>
+            <opis>Batman, z pomocą porucznika Gordona oraz prokuratora Harveya Denta, występuje przeciwko przerażającemu i nieobliczalnemu Jokerowi, który chce pogrążyć Gotham City w chaosie.</opis>
+            <reżyseria>Christopher Nolan</reżyseria>
+            <scenariusz>Christopher Nolan, Jonathan Nolan</scenariusz>
+            <boxoffice waluta="USD">1004558444</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.0</filmweb>
+            <imdb>9.0</imdb>
+        </oceny>
+        <premiery>
+            <polska>2008-08-08</polska>
+            <świat>2008-07-14</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2009-02-14</data_wypożyczenia>
+            <data_zwrotu>2009-03-01</data_zwrotu>
+        </wypożyczenie>
+    </film> 
+    <film id="Avengers" gatunek="akcja sci-fi" kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Avengers%3A+Koniec+gry-2019-790542" imdb="https://www.imdb.com/title/tt4154796/" />
+        <dane>
+            <tytuł_org>Avengers: Endgame</tytuł_org>
+            <tytuł_pl>Avengers: Koniec gry</tytuł_pl>
+            <opis>Po wymazaniu połowy życia we Wszechświecie przez Thanosa, Avengersi starają się zrobić wszystko co konieczne, aby pokonać szalonego tytana.</opis>
+            <reżyseria>Anthony Russo, Joe Russo</reżyseria>
+            <scenariusz>Christopher Markus, Stephen McFeely</scenariusz>
+            <boxoffice waluta="USD">2797800564</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.2</filmweb>
+            <imdb>8.5</imdb>
+        </oceny>     
+        <premiery>
+            <polska>2019-04-25</polska>
+            <świat>2019-04-22</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2019-05-06</data_wypożyczenia>
+            <data_zwrotu></data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="bHero" gatunek="akcja sci-fi"   kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Wielka+Sz%C3%B3stka-2014-685183" imdb="https://www.imdb.com/title/tt2245084/" />
+        <dane>
+            <tytuł_org>Big Hero 6</tytuł_org>
+            <tytuł_pl>Wielka Szóstka</tytuł_pl>
+            <opis>Młody geniusz Hiro Hamada wraz ze swoim robotem Baymaxem zostaje uwikłany w plan zniszczenia miasta San Fransokyo.</opis>
+            <reżyseria>Don Hall, Chris Williams</reżyseria>
+            <scenariusz>Jordan Roberts, Robert L. Baird,</scenariusz>
+            <boxoffice waluta="USD">652127828</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.7</filmweb>
+            <imdb>7.8</imdb>
+        </oceny>
+        <premiery>
+            <polska>2014-11-28</polska>
+            <świat>2014-10-23</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2015-12-12</data_wypożyczenia>
+            <data_zwrotu>2015-12-27</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Wonder" gatunek="dramat komedia"  kraj="US HK">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Cudowny+ch%C5%82opak-2017-776387" imdb="https://www.imdb.com/title/tt2543472/" />
+        <dane>
+            <tytuł_org>Wonder</tytuł_org>
+            <tytuł_pl>Cudowny chłopak</tytuł_pl>
+            <opis>Auggie od urodzenia ma zdeformowaną twarz. W nowej szkole chłopiec chce udowodnić rówieśnikom, że piękno to więcej niż wygląd.</opis>
+            <reżyseria>Stephen Chbosky</reżyseria>
+            <scenariusz>Steve Conrad, Jack Thorne</scenariusz>
+            <boxoffice waluta="USD">305900041</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.9</filmweb>
+            <imdb>8.0</imdb>
+        </oceny>
+        <premiery>
+            <polska>2018-01-19</polska>
+            <świat>2017-11-15</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2019-04-22</data_wypożyczenia>
+            <data_zwrotu>2019-08-19</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Exorcist" gatunek="horror"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Egzorcysta" imdb="https://www.imdb.com/title/tt0070047/" />
+        <dane>
+            <tytuł_org>The Exorcist</tytuł_org>
+            <tytuł_pl>Egzorcysta</tytuł_pl>
+            <opis>Kiedy dwunastoletnia dziewczynka zostaje opętana przez diabła, a lekarze nie są w stanie jej pomóc, przerażona matka kontaktuje się z egzorcystą.</opis>
+            <reżyseria>William Friedkin</reżyseria>
+            <scenariusz>William Peter, Blatty</scenariusz>
+            <boxoffice waluta="USD">441306145</boxoffice>
+        </dane>
+        <oceny>
+            <filmweb>7.5</filmweb>
+            <imdb>8.0</imdb>
+        </oceny>
+        <premiery>
+            <polska>2014-10-24</polska>
+            <świat>1973-06-19</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2015-01-12</data_wypożyczenia>
+            <data_zwrotu>2015-04-05</data_zwrotu>
+        </wypożyczenie>
+    </film>
+     <film id="Conjuring" gatunek="horror"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Obecno%C5%9B%C4%87-2013-627100" imdb="https://www.imdb.com/title/tt1457767/" />
+        <dane>
+            <tytuł_org>The Conjuring</tytuł_org>
+            <tytuł_pl>Obecność</tytuł_pl>
+            <opis>Słynna para badaczy zjawisk paranormalnych zostaje poproszona o pomoc rodzinie, którą terroryzuje potężny demon.</opis>
+            <reżyseria>James Wan</reżyseria>
+            <scenariusz>Chad Hayes, Carey Hayes</scenariusz>
+            <boxoffice waluta="USD">318000141</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.4</filmweb>
+            <imdb>7.5</imdb>
+        </oceny>
+
+        <premiery>
+            <polska>2013-07-26</polska>
+            <świat>2013-06-27</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2014-04-16</data_wypożyczenia>
+            <data_zwrotu>2014-05-23</data_zwrotu>
+        </wypożyczenie>
+    </film>
+     <film id="bFish" gatunek="dramat fantasy"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Duza.Ryba" imdb="https://www.imdb.com/title/tt0319061/" />
+        <dane>
+            <tytuł_org>Big Fish</tytuł_org>
+            <tytuł_pl>Duża ryba</tytuł_pl>
+            <opis>Schorowany Edward Bloom słynął z nieprawdopodobnych opowieści. Jego syn próbuje dociec, ile w nich było prawdy.</opis>
+            <reżyseria>Tim Burton</reżyseria>
+            <scenariusz>John August</scenariusz>
+            <boxoffice waluta="USD">122919055</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.7</filmweb>
+            <imdb>8.0</imdb>
+        </oceny>
+
+        <premiery>
+            <polska>2004-02-27</polska>
+            <świat>2003-12-10</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2008-09-19</data_wypożyczenia>
+            <data_zwrotu>2008-11-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Seven" gatunek="thriller kryminał"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Siedem" imdb="https://www.imdb.com/title/tt0114369/" />
+        <dane>
+            <tytuł_org>Se7en</tytuł_org>
+            <tytuł_pl>Siedem</tytuł_pl>
+            <opis>Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary według specjalnego klucza - siedmiu grzechów głównych.</opis>
+            <reżyseria>David Fincher</reżyseria>
+            <scenariusz>Andrew Kevin Walker</scenariusz>
+            <boxoffice waluta="USD">327333559</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.3</filmweb>
+            <imdb>8.6</imdb>
+        </oceny>
+
+        <premiery>
+            <polska>1996-02-15</polska>
+            <świat>1995-09-15</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>1998-02-17</data_wypożyczenia>
+            <data_zwrotu>1998-03-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="sIsland" gatunek="thriller dramat"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Wyspa+tajemnic-2010-464256" imdb="https://www.imdb.com/title/tt1130884/" />
+        <dane>
+            <tytuł_org>Shutter Island</tytuł_org>
+            <tytuł_pl>Wyspa tajemnic</tytuł_pl>
+            <opis>Szeryf federalny Daniels stara się dowiedzieć, jakim sposobem z zamkniętej celi w pilnie strzeżonym szpitalu dla chorych psychicznie przestępców zniknęła pacjentka.</opis>
+            <reżyseria>Martin Scorsese</reżyseria>
+            <scenariusz>Laeta Kalogridis</scenariusz>
+            <boxoffice waluta="USD">294804195</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.2</filmweb>
+            <imdb>8.6</imdb>
+        </oceny>
+
+        <premiery>
+            <polska>2010-03-26</polska>
+            <świat>2010-02-13</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2012-04-25</data_wypożyczenia>
+            <data_zwrotu>2012-06-14</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Prestige" gatunek="thriller dramat"  kraj="US UK">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Prestiz" imdb="https://www.imdb.com/title/tt0482571/" />
+        <dane>
+            <tytuł_org>The Prestige</tytuł_org>
+            <tytuł_pl>Prestiż</tytuł_pl>
+            <opis>Dwaj młodzi iluzjoniści żyją w przyjaznych stosunkach. Gdy ginie żona jednego z nich, mężczyźni stają się śmiertelnymi wrogami.</opis>
+            <reżyseria>Christopher Nolan</reżyseria>
+            <scenariusz>Christopher Nolan, Jonathan Nolan</scenariusz>
+            <boxoffice waluta="USD">109676311</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.1</filmweb>
+            <imdb>8.5</imdb>
+        </oceny>
+
+        <premiery>
+            <polska>2007-01-05</polska>
+            <świat>2006-10-17</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2010-12-02</data_wypożyczenia>
+            <data_zwrotu>2011-04-10</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="fGump" gatunek="dramat komedia"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Forrest.Gump" imdb="https://www.imdb.com/title/tt0109830/" />
+        <dane>
+            <tytuł_org>Forrest Gump</tytuł_org>
+            <tytuł_pl></tytuł_pl>
+            <opis>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</opis>
+            <reżyseria>Robert Zemeckis</reżyseria>
+            <scenariusz>Eric Roth</scenariusz>
+            <boxoffice waluta="USD">677387716</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.5</filmweb>
+            <imdb>8.8</imdb>
+        </oceny>
+        <premiery>
+            <polska>1994-11-04</polska>
+            <świat>1994-06-23</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2000-08-07</data_wypożyczenia>
+            <data_zwrotu>2000-09-25</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Cidade" gatunek="dramat thriller"  kraj="BR FR">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Miasto.Boga" imdb="https://www.imdb.com/title/tt0317248/" />
+        <dane>
+            <tytuł_org>Cidade de Deus</tytuł_org>
+            <tytuł_pl>Miasto Boga</tytuł_pl>
+            <opis>Oparta na faktach historia dwóch chłopców ze slumsów Rio de Janeiro. Jeden z nich dołączył do gangu, drugi wybrał sztukę i został fotografem.</opis>
+            <reżyseria>Fernando Meirelles</reżyseria>
+            <scenariusz>Bráulio Mantovani</scenariusz>
+            <boxoffice waluta="USD">30641770</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.0</filmweb>
+            <imdb>8.6</imdb>
+        </oceny>
+        <premiery>
+            <polska>2004-01-09</polska>
+            <świat>2002-05-18</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2005-09-14</data_wypożyczenia>
+            <data_zwrotu>2005-11-17</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Millenium" gatunek="kryminał thriller"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Millennium%3A+M%C4%99%C5%BCczy%C5%BAni%2C+kt%C3%B3rzy+nienawidz%C4%85+kobiet-2009-465857" imdb="https://www.imdb.com/title/tt1132620/" />
+        <dane>
+            <tytuł_org>Män som hatar kvinnor</tytuł_org>
+            <tytuł_pl>Millennium: Mężczyźni, którzy nienawidzą kobiet</tytuł_pl>
+            <opis>Doświadczony dziennikarz śledczy i młoda hakerka starają się rozwikłać zagadkę zaginięcia 16-letniej dziewczyny, do którego doszło czterdzieści lat wcześniej.</opis>
+            <reżyseria>Niels Arden Oplev</reżyseria>
+            <scenariusz>Nikolaj Arcel, Rasmus Heisterberg</scenariusz>
+            <boxoffice waluta="USD">104395170</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.6</filmweb>
+            <imdb>8.2</imdb>
+        </oceny>
+        <premiery>
+            <polska>2009-11-06</polska>
+            <świat>2009-02-27</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2010-05-11</data_wypożyczenia>
+            <data_zwrotu>2010-07-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Haevnen" gatunek="dramat thriller"  kraj="DK SE">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/W+lepszym+%C5%9Bwiecie-2010-539094" imdb="https://www.imdb.com/title/tt1340107/" />
+        <dane>
+            <tytuł_org>Hævnen</tytuł_org>
+            <tytuł_pl>W lepszym świecie</tytuł_pl>
+            <opis>Christian i Elias zostają przyjaciółmi ze szkolnej ławki. Pierwszy z nich niedawno stracił matkę, rodzice drugiego zaś myślą o rozwodzie.</opis>
+            <reżyseria>Susanne Bier</reżyseria>
+            <scenariusz>Anders Thomas Jensen</scenariusz>
+            <boxoffice waluta="USD">104395170</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.6</filmweb>
+            <imdb>8.2</imdb>
+        </oceny>
+        <premiery>
+            <polska>2009-11-06</polska>
+            <świat>2009-02-27</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2010-05-11</data_wypożyczenia>
+            <data_zwrotu>2010-07-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Return" gatunek="dramat"  kraj="RU">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Powrot" imdb="https://www.imdb.com/title/tt0376968/" />
+        <dane>
+            <tytuł_org>Vozvrashchenie</tytuł_org>
+            <tytuł_pl>Powrót</tytuł_pl>
+            <opis>Ojciec dwóch nastoletnich chłopców wraca po 12 latach do domu. By poznać swoich synów na nowo, zabiera ich w podróż.</opis>
+            <reżyseria>Andriej Zwiagincew</reżyseria>
+            <scenariusz>Vladimir Moiseenko, Aleksandr Novototskiy-Vlasov</scenariusz>
+            <boxoffice waluta="USD">4429093</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.9</filmweb>
+            <imdb>8.2</imdb>
+        </oceny>
+        <premiery>
+            <polska>2004-03-19</polska>
+            <świat>2003-06-25</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2007-04-04</data_wypożyczenia>
+            <data_zwrotu>2007-09-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="dHour" gatunek="horror akcja sci-fi"  kraj="RU US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Najczarniejsza+godzina-2011-565254" imdb="https://www.imdb.com/title/tt1093357/" />
+        <dane>
+            <tytuł_org>The Darkest Hour</tytuł_org>
+            <tytuł_pl>Najczarniejsza godzina</tytuł_pl>
+            <opis>Kiedy świat atakują kosmici, grupa ocalałych szuka bezpiecznego schronienia.</opis>
+            <reżyseria>Chris Gorak</reżyseria>
+            <scenariusz>Jon Spaihts</scenariusz>
+            <boxoffice waluta="USD">64626786</boxoffice>
+        </dane>
+        <oceny>
+            <filmweb>4.7</filmweb>
+            <imdb>4.9</imdb>
+        </oceny>
+        <premiery>
+            <polska>2012-01-27</polska>
+            <świat>2011-12-22</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2013-02-24</data_wypożyczenia>
+            <data_zwrotu>2013-04-22</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Hardcore" gatunek="akcja sci-fi"  kraj="RU US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Hardcore+Henry-2015-719690" imdb="https://www.imdb.com/title/tt3072482/" />
+        <dane>
+            <tytuł_org>Hardcore</tytuł_org>
+            <tytuł_pl>Hardcore Henry</tytuł_pl>
+            <opis>Cyborg Henry musi uratować swoją żonę, a zarazem twórcę, pojmaną przez psychopatycznego tyrana o telekinetycznych mocach i jego armię najemników.</opis>
+            <reżyseria>Ilya Naishuller</reżyseria>
+            <scenariusz>Ilya Naishuller</scenariusz>
+            <boxoffice waluta="USD">14333790</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>6.5</filmweb>
+            <imdb>6.7</imdb>
+        </oceny>
+        <premiery>
+            <polska>2016-04-08</polska>
+            <świat>2015-09-12</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2018-11-14</data_wypożyczenia>
+            <data_zwrotu>2019-03-05</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Fall" gatunek="dramat fantasy przygodowy"  kraj="IN RPA US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/film/Magia+uczu%C4%87-2006-290840" imdb="https://www.imdb.com/title/tt0460791/" />
+        <dane>
+            <tytuł_org>The Fall</tytuł_org>
+            <tytuł_pl>Magia uczuć</tytuł_pl>
+            <opis>Powracający do zdrowia kaskader zaprzyjaźnia się w szpitalu z kilkuletnią dziewczynką.</opis>
+            <reżyseria>Tarsem Singh</reżyseria>
+            <scenariusz>Tarsem Singh, Dan Gilroy, Nico Soultanakis</scenariusz>
+            <boxoffice waluta="USD">3669465</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.7</filmweb>
+            <imdb>7.9</imdb>
+        </oceny>
+        <premiery>
+            <polska>2006-09-09</polska>
+            <świat>2006-09-09</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2007-06-01</data_wypożyczenia>
+            <data_zwrotu>2007-07-01</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="Psycho" gatunek="thriller"  kraj="US">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/Psychoza" imdb="https://www.imdb.com/title/tt0054215/" />
+        <dane>
+            <tytuł_org>Psycho</tytuł_org>
+            <tytuł_pl>Psychoza</tytuł_pl>
+            <opis>Dziewczyna uciekająca ze skradzionymi pieniędzmi zatrzymuje się w pensjonacie prowadzonym przez młodego Normana Batesa.</opis>
+            <reżyseria>Alfred Hitchcock</reżyseria>
+            <scenariusz>Joseph Stefano</scenariusz>
+            <boxoffice waluta="USD">50000000</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>8.1</filmweb>
+            <imdb>8.5</imdb>
+        </oceny>
+        <premiery>
+            <polska>1960-12-31</polska>
+            <świat>1960-06-16</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>1971-02-06</data_wypożyczenia>
+            <data_zwrotu>1973-04-14</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <film id="mAdentro" gatunek="biograficzny dramat"  kraj="FR ES IT">
+        <bazy_filmowe filmweb="https://www.filmweb.pl/W.Strone.Morza" imdb="https://www.imdb.com/title/tt0427498/" />
+        <dane>
+            <tytuł_org>Mar adentro</tytuł_org>
+            <tytuł_pl>W stronę morza</tytuł_pl>
+            <opis>Sparaliżowany od 30 lat Ramón stara się o pozwolenie na eutanazję.</opis>
+            <reżyseria>Alejandro Amenábar</reżyseria>
+            <scenariusz>Alejandro Amenábar, Mateo Gil</scenariusz>
+            <boxoffice waluta="USD">38535221</boxoffice>
+        </dane>
+         <oceny>
+            <filmweb>7.7</filmweb>
+            <imdb>7.5</imdb>
+        </oceny>
+        <premiery>
+            <polska>2005-01-21</polska>
+            <świat>2004-09-03</świat>
+        </premiery>
+        <wypożyczenie>
+            <data_wypożyczenia>2006-11-18</data_wypożyczenia>
+            <data_zwrotu>2006-12-04</data_zwrotu>
+        </wypożyczenie>
+    </film>
+    <!-- Stopka -->
+    <prawa_autorskie>© 2020 Wszelkie prawa zastrzeżone</prawa_autorskie>
+</filmy>
